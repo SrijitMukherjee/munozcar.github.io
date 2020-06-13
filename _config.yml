@@ -1,60 +1,37 @@
-title: Carlos Muñoz-Romero
+title: Carlos M.-R.
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-permalink: ''
+permalink: '/blog'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: AstroCarlosMR #if your site has a twitter account, enter it here
+site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Carlos E. Muñoz-Romero # add your name
 author-img: myself.png # add your photo
-about-author: I'm an astronomy graduate student at the Center for Astrophysics | Harvard & Smithsonian.  # add description
-social-twitter: AstroCarlosMR # add your Twitter handle
+about-author: Astronomy graduate student at the Center for Astrophysics | Harvard & Samithsonian.  # add description
+social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: munozcar # add your Github handle
+social-github: artemsheludko # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: cmunozromero@g.harvard.edu # add your Email address
+social-email: # add your Email address
 
 # Disqus
-discus-identifier: Carlos # add your discus identifier
+discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
 paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
-
-# Build settings
-remote_theme: munozcar/flexible-jekyll
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
