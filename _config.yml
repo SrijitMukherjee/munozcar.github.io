@@ -11,7 +11,7 @@ site-twitter: AstroCarlosMR #if your site has a twitter account, enter it here
 # Author Settings
 author: Carlos E. Muñoz-Romero # add your name
 author-img: myself.png # add your photo
-about-author: I'm an astronomy graduate student at the Center for Astrophysics | Harvard & Smithsonian. # add description
+about-author: I'm an astronomy graduate student at the Center for Astrophysics | Harvard & Smithsonian.  # add description
 social-twitter: AstroCarlosMR # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: munozcar # add your Github handle
