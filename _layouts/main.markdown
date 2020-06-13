@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <aside class="sidebar">
   <header>
     <div class="about">
@@ -10,6 +9,8 @@ layout: default
       </div>
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
+
+      <p>{{site.about-author2}}</p>
     </div>
   </header> <!-- End Header -->
   <footer>
